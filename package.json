@@ -4,7 +4,7 @@
   "description": "Free proxy for integrate.api.nvidia.com",
   "main": "index.js",
   "scripts": {
-    "start": "npx @ai-ql/api-proxy --target=https://integrate.api.nvidia.com --port 9101"
+    "start": "npx @ai-ql/api-proxy --target=https://integrate.api.nvidia.com --port $PORT"
   },
   "dependencies": {
     "@ai-ql/api-proxy": "^1.0.0"
