@@ -1,8 +1,6 @@
 {
   "name": "nvidia-proxy",
   "version": "1.0.0",
-  "description": "Free proxy for integrate.api.nvidia.com",
-  "main": "index.js",
   "scripts": {
     "start": "npx @ai-ql/api-proxy --target=https://integrate.api.nvidia.com --port $PORT"
   },
@@ -11,6 +9,5 @@
   },
   "engines": {
     "node": ">=18"
-  },
-  "license": "MIT"
+  }
 }
